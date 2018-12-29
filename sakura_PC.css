@@ -76,9 +76,12 @@
 }
 .price-caption {
   font-size:20px;
-  text-align: right;
-  line-height:8px;
-  color:red
+}
+.price-caption2 {
+  font-size:22px;
+  text-align: left;
+  line-height:15px;
+  padding-left: 50px;
 }
 table {/* 料金表 */
   border: 3px #eee183 solid;
