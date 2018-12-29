@@ -129,6 +129,13 @@ img {
   line-height:8px;
   color:red
 }
+.price-caption2 {
+  font-size:3vw;
+  text-align: left;
+  line-height:8px;
+  color:green;
+  padding-left:20px;
+}
 .prices {
   width: 100%;
   min-height: 200px;
@@ -218,4 +225,3 @@ table {/* 料金表 */
 .fab {
   margin-right: 5px;
 }
-
