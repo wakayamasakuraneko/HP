@@ -1,0 +1,133 @@
+/* PC版 */
+@media (min-width: 769px) {
+
+.header-title {
+  text-align: left;
+  line-height:10px;
+ }
+.device0 {
+  color:red;
+  font-size:15px;
+}  
+.header-right {
+  font-size:18px;
+}
+
+.gnav {
+  overflow: visible;
+}
+.gnav .nav {
+  padding-left:10vw;
+  width: 1000px;
+}
+.gnav .nav li {
+  box-sizing: border-box;
+}
+.gnav .nav li a {
+  display: block;
+  width: 15vw;
+  height: 40px;
+  font-size: 14px;
+  line-height: 2.8;
+}
+
+.introduction {/* 病院紹介 */
+  background-color:#fdfdcd;*/
+  width: 100%;
+  border-top:10px solid #f6f4a5;
+  border-left: 15px solid #f6f4a5;
+  border-right: 15px solid #f6f4a5;/
+  margin-bottom:0px;
+  border-bottom: 0px solid gold;
+  box-sizing: border-box;
+}
+.intro-text {
+  width: auto;
+  background-color:#ffffe9;
+  font-size: 22px;
+  color:black;
+  padding:3%;
+  margin:3%;
+  border-radius:15px;
+}
+
+.director {  line-height: 5px;}
+.director-intro {  font-size :18px;} 
+.img-mine {
+  height:200px;
+  width:150px;
+}
+
+.prices {/* 料金案内 */
+  background-color:#fdfdcd;
+  width: 100%;
+  border-top:5px solid #f6f4a5;
+  border-left: 15px solid #f6f4a5;
+  border-right: 15px solid #f6f4a5;
+  }
+.price {
+  width: auto;
+  background-color:#ffffe9;
+  font-size: 22px;
+  color:black;
+  padding:3%;
+  margin:3%;
+  border-radius:15px;/
+}
+.price-caption {
+  font-size:20px;
+  text-align: right;
+  line-height:8px;
+  color:red
+}
+table {/* 料金表 */
+  border: 3px #eee183 solid;
+  color:black;
+  background: #fdfdcd;
+  margin-left: auto;
+  margin-right:auto;
+  table-layout: fixed;
+  width: 90%;
+  border-collapse: collapse;
+}
+th {background:#eee183;}
+.column2 {background: #ffffe9;}
+
+
+.access {/* アクセス */
+  background-color:#fdfdcd;
+  width: 100%;
+  border-top:5px solid #f6f4a5;
+  border-left: 15px solid #f6f4a5;
+  border-right: 15px solid #f6f4a5;
+  margin-bottom:0px;
+  border-bottom: 5px solid #f6f4a5;
+}
+.map {
+  width: auto;
+  background-color:#ffffe9;
+  font-size: 22px;
+  color:black;
+  padding:3%;
+  margin:3%;
+  border-radius:15px;
+}
+.map p {
+  font-size:22px;
+  line-height:1vw;
+}
+.device {
+  font-size: 18px;
+  color:red;
+  margin-left: 30px;
+}
+
+.footer {
+  height: 120px;
+}  
+.footer-left {
+  padding:30px;
+  font-size:20px;
+}  
+.footer-right a {
+  font-size:22px;
