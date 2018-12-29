@@ -1,0 +1,221 @@
+/* スマホ版 */
+.header {
+  background:#eee183;
+  position :fixed;
+  width:100%;
+  top: 0;
+  border-bottom: 2px solid #eee;
+}
+.header-title {
+  text-align: left;
+  line-height:10px;
+  padding-top:30px;
+  padding-left:30px;
+  padding-bottom:2px;
+  font-weight: bold;
+}
+.header-title span {
+  color:red;
+}  
+.header-title p {
+  text-align: center;
+}
+
+.header-right { 
+  color:green;
+  font-weight: normal;
+  padding-top:10px;
+  padding-right:30px;
+  font-size:15px;
+  float:right;
+}
+.header-right span { 
+  color:red;
+  font-weight: bold;
+}
+
+.gnav {
+  width: 100%;
+  height: 80px;
+  margin: 0;
+  padding: 0;
+  background: #eee183;
+}
+.gnav .nav { 
+  width: 300px;
+  height: 40px;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+}
+.gnav .nav li {
+  position: relative;
+  list-style: none;
+  box-sizing: border-box;
+  border: 1px solid #eee;
+}
+.gnav .nav li a {
+  display: block;
+  width: 60px;
+  height: 40px;
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+  line-height: 3.2;
+  background: black;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.gnav .nav > li:hover > a {
+  color: orange;
+  background-color: #444444;
+}
+
+/* タイトルイメージ */  
+.main {
+  background-color: black;
+  margin-top:175px;
+}
+  
+.title-img {
+  text-align: center;
+}
+img {
+  width: 90vw;
+  margin-top:2px;
+  padding:7px;
+}
+
+
+/* 病院紹介 */
+.introduction {
+  width: 100%;
+  min-height: 200px;
+  background: #fefde0;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: left;
+  font-size: 15px;
+  color:#000;
+  box-sizing: border-box;
+} 
+#clinic-introduction {
+  color:#99634b;
+} 
+
+.kotoba {color:red;}
+.director {
+  line-height: 5px;
+  text-align:center;
+  font-family: Georgia,游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN",HGS明朝E,メイリオ,Meiryo,serif;}
+.kotoba2 {color:#02cd88;}
+.kotoba3 {color:#026338;}
+.director-intro {
+  color:#026338;
+  font-size :15px;
+}
+.img-mine {
+  height:150px;
+  width:115px;
+}
+
+#clinic-prices {/* 料金案内 */
+  text-align: left;
+  color:#d72521;
+}
+.price-caption {
+  font-size:3vw;
+  text-align: right;
+  line-height:8px;
+  color:red
+}
+.prices {
+  width: 100%;
+  min-height: 200px;
+  background: #fefde0;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+  font-size: 15px;
+  color:#000;
+  box-sizing: border-box;
+}
+.price-table {
+  text-align:centr; 
+}
+table {/* 料金表 */
+  margin-left: auto;
+  margin-right:auto;
+  table-layout: fixed;
+  width:100%;
+}
+
+#clinic-access {/* アクセス */
+  color:#2d6d4b;
+}
+.access {
+  width: 100%;
+  min-height: 200px;
+  background: #fefde0;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: left;
+  font-size: 15px;
+  color:#000;
+  box-sizing: border-box;
+ }
+.map p {
+  font-size:15px;
+  line-height:1vw;
+}
+.device {
+  font-size: 12px;
+  color:red;
+  margin-left: 15px;
+}
+
+#clinic-introduction {
+  margin-top:-180px;
+  padding-top:180px;
+}
+#clinic-prices {
+  margin-top:-180px;
+  padding-top:180px;
+}
+#clinic-access { 
+  margin-top:-180px;
+  padding-top:180px;
+}
+
+.footer {
+  height: 90px;
+  width:100%;
+  line-height:15px;
+  background:#eee183;
+}  
+.footer-left {
+  color:red;
+  font-weight: bold;
+  padding:12px;
+  font-size:15px;
+}  
+.footer-right a {
+  float:right;
+  text-decoration: none;
+  font-size:18px;
+}
+.facebook {
+  background-color: #3b5998;
+  margin-right: 30px;
+}
+.btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+.fab {
+  margin-right: 5px;
+}
+
