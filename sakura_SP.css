@@ -150,6 +150,10 @@ img {
 .price-table {
   text-align:centr; 
 }
+.price-table span {
+ color:red;
+ font-size:80%;
+} 
 table {/* 料金表 */
   margin-left: auto;
   margin-right:auto;
@@ -160,9 +164,12 @@ table {/* 料金表 */
 #clinic-access {/* アクセス */
   color:#2d6d4b;
 }
+#clinic-access span {
+  color:#dd0000;
+}
 .access {
   width: 100%;
-  min-height: 200px;
+  min-height: 150px;
   background: #fefde0;
   margin: 0 auto;
   padding: 10px;
@@ -170,7 +177,7 @@ table {/* 料金表 */
   font-size: 15px;
   color:#000;
   box-sizing: border-box;
- }
+}
 .map p {
   font-size:15px;
   line-height:1vw;
@@ -179,6 +186,36 @@ table {/* 料金表 */
   font-size: 12px;
   color:red;
   margin-left: 15px;
+}
+.map-img img {
+  width:80%;
+  margin-left:7%;
+}
+.googlemap-text {text-align:center;}
+.map-btn {
+  
+  padding: 3px 15px;
+  background-color: #ee0000;
+  color: white;
+  display: inline-block;
+  opacity: 0.7;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+.homestyle-btn{text-align:center;}
+.home-btn {
+  font-size:20px;
+  padding: 3px 15px;
+  background-color: #00bb00;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  margin-right: 20px;
+  margin-bottom: 15px;
+} 
+a {
+  text-decoration: none;/
 }
 
 #clinic-introduction {
@@ -222,6 +259,10 @@ table {/* 料金表 */
   opacity: 0.8;
   border-radius: 4px;
 }
+
 .fab {
   margin-right: 5px;
+}
+.far {
+  margin-left: 10px;
 }
