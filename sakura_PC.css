@@ -129,6 +129,10 @@ th {background:#eee183;}
   width:430px;
   margin-left:10vw;
 }
+.home-btn {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}  
 .footer {
   height: 120px;
 }  
