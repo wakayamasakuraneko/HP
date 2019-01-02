@@ -222,14 +222,12 @@ a {
 
 .gmap {
   position: relative;
-  padding-bottom: 56.25%;
+  padding-bottom: 56%;
   padding-top: 30px;
   height: 0;
   overflow: hidden;
 }
-.gmap iframe,
-.gmap object,
-.gmap embed {
+.gmap iframe {
   position: absolute;
   top: 0;
   left: 0;
