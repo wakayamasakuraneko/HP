@@ -160,7 +160,7 @@ table {/* 料金表 */
   table-layout: fixed;
   width:100%;
 }
-
+th {background:#eee183;}
 #clinic-access {/* アクセス */
   color:#2d6d4b;
 }
