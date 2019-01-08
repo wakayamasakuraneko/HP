@@ -1,6 +1,5 @@
 /* PC版 */
-@media (min-width: 769px) {
-
+@media (min-width: 769px){
 .header-title {
   text-align: left;
   line-height:10px;
@@ -31,13 +30,13 @@
   line-height: 2.8;
 }
 
-.introduction {/* 病院紹介 */
-  background-color:#fdfdcd;*/
+.introduction {
+  background-color:#fdfdcd;
   width: 100%;
   border-top:10px solid #f6f4a5;
   border-left: 15px solid #f6f4a5;
   border-right: 15px solid #f6f4a5;/
-  margin-bottom:0px;
+  margin-bottom: 0px;
   border-bottom: 0px solid gold;
   box-sizing: border-box;
 }
@@ -52,13 +51,13 @@
 }
 
 .director {  line-height: 5px;}
-.director-intro {  font-size :18px;} 
+.director-intro {  font-size :18px;}
 .img-mine {
   height:200px;
   width:150px;
 }
 
-.prices {/* 料金案内 */
+.prices {
   background-color:#fdfdcd;
   width: 100%;
   border-top:5px solid #f6f4a5;
@@ -83,7 +82,7 @@
   line-height:15px;
   padding-left: 50px;
 }
-table {/* 料金表 */
+table {
   border: 3px #eee183 solid;
   color:black;
   background: #fdfdcd;
@@ -97,7 +96,7 @@ th {background:#eee183;}
 .column2 {background: #ffffe9;}
 
 
-.access {/* アクセス */
+.access {
   background-color:#fdfdcd;
   width: 100%;
   border-top:5px solid #f6f4a5;
@@ -124,6 +123,7 @@ th {background:#eee183;}
   color:red;
   margin-left: 30px;
 }
+.map-img {margin-left:10%;}
 .map-img img {
   height:430px;
   width:430px;
@@ -132,7 +132,10 @@ th {background:#eee183;}
 .home-btn {
   margin-top: 0px;
   margin-bottom: 20px;
-}  
+}
+.empty {
+  min-height: 0px;
+}
 .footer {
   height: 120px;
 }  
@@ -142,3 +145,7 @@ th {background:#eee183;}
 }  
 .footer-right a {
   font-size:22px;
+.facebook {
+  border-bottom: 0px;
+  margin-bottom: 10px;
+}
