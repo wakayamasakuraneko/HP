@@ -296,6 +296,14 @@ a {
   opacity: 0.8;
   border-radius: 4px;
 }
+.newpage {/* 移転の案内 */
+  background-color: #008800;
+  margin-right: 3px;
+  padding: 5px 5px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
 .fab {
   margin-right: 5px;
 }
